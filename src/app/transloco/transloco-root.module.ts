@@ -22,7 +22,7 @@ export class TranslocoHttpLoader implements TranslocoLoader {
 
 @NgModule({
   exports: [ TranslocoModule ],
-  providers: [
+  providers: [ 
     {
       provide: TRANSLOCO_CONFIG,
       useValue: translocoConfig({
